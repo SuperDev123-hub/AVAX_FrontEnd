@@ -1,0 +1,143 @@
+.cover_image {
+  height: 343px;
+  width: 349px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.track_label {
+  font-size: 11px;
+}
+.track_border {
+  border-radius: 5px;
+  border: 1px solid #eaeaf1;
+  height: 35px;
+  padding: 0 5px;
+}
+
+.track_select {
+  width: 190px;
+  height: 35px;
+}
+
+.btn_upload {
+  width: 190px;
+  height: 34px;
+  color: #ffffff;
+  background-color: #e0335d;
+  border-radius: 10px;
+  border: none;
+}
+.btn_add {
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #e0335d;
+  border-radius: 10px;
+  border: none;
+  margin-right: 20px;
+}
+.btn_cancel {
+  width: 150px;
+  height: 40px;
+  color: #e0335d;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0335d;
+}
+.user_info {
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 64px;
+  align-items: center;
+
+  .avatar {
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.drop_details {
+  margin-top: 10px;
+  display: flex;
+  padding: 0 15px 0 15px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 40px;
+    width: 100%;
+  }
+
+  .price {
+    .quid {
+      font-weight: 700;
+      font-size: 20px;
+      color: #e0335d;
+    }
+
+    .count {
+      font-weight: 700;
+      font-size: 20px;
+      color: #e0335d;
+      margin-top: 5px;
+    }
+
+    .dollar {
+      font-weight: 400;
+      font-size: 15px;
+      color: #858fa2;
+    }
+  }
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  padding: 0px 0 20px 0;
+  justify-content: center;
+  button {
+    width: 90%;
+    /* margin-left : auto;
+    margin-right : auto; */
+    background-color: #e0335d;
+    color: white;
+    padding: 8px 0 8px 0;
+    border-radius: 5px;
+    border: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.formInput {
+  width: 100%;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
